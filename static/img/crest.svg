@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="crest-title">
+  <title id="crest-title">Seal of the Slop Academy — Per Aspera ad Slop</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3dd8a"/>
+      <stop offset="0.45" stop-color="#c9a227"/>
+      <stop offset="0.75" stop-color="#8f6c12"/>
+      <stop offset="1" stop-color="#e6c766"/>
+    </linearGradient>
+    <radialGradient id="face" cx="0.4" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#e9cf74"/>
+      <stop offset="0.6" stop-color="#b48e1f"/>
+      <stop offset="1" stop-color="#6e520c"/>
+    </radialGradient>
+    <path id="ring" d="M120,32 a88,88 0 1,1 0,176 a88,88 0 1,1 0,-176"/>
+  </defs>
+  <circle cx="120" cy="120" r="116" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <circle cx="120" cy="120" r="111" fill="none" stroke="url(#g)" stroke-width="0.75"/>
+  <circle cx="120" cy="120" r="74" fill="url(#face)"/>
+  <circle cx="120" cy="120" r="74" fill="none" stroke="#f3dd8a" stroke-opacity="0.6" stroke-width="1"/>
+  <circle cx="120" cy="120" r="68" fill="none" stroke="#5a430a" stroke-opacity="0.55" stroke-width="0.75"/>
+  <text font-family="'Cormorant Garamond', 'EB Garamond', Georgia, serif" font-size="15" fill="url(#g)">
+    <textPath href="#ring" startOffset="0" textLength="548" lengthAdjust="spacing">· PER ASPERA AD SLOP · ACADEMIA SLOPPIENSIS · FUNDATA MMXXVI </textPath>
+  </text>
+  <!-- laurel -->
+  <g fill="none" stroke="#3d2e06" stroke-width="1.6" stroke-linecap="round" opacity="0.8">
+    <path d="M86,160 C70,140 70,110 84,86"/>
+    <path d="M154,160 C170,140 170,110 156,86"/>
+  </g>
+  <g fill="#3d2e06" opacity="0.75">
+    <ellipse cx="78" cy="148" rx="7" ry="3" transform="rotate(-50 78 148)"/>
+    <ellipse cx="74" cy="132" rx="7" ry="3" transform="rotate(-70 74 132)"/>
+    <ellipse cx="74" cy="116" rx="7" ry="3" transform="rotate(-95 74 116)"/>
+    <ellipse cx="78" cy="100" rx="7" ry="3" transform="rotate(-115 78 100)"/>
+    <ellipse cx="162" cy="148" rx="7" ry="3" transform="rotate(50 162 148)"/>
+    <ellipse cx="166" cy="132" rx="7" ry="3" transform="rotate(70 166 132)"/>
+    <ellipse cx="166" cy="116" rx="7" ry="3" transform="rotate(95 166 116)"/>
+    <ellipse cx="162" cy="100" rx="7" ry="3" transform="rotate(115 162 100)"/>
+  </g>
+  <!-- the ladle, emblem of the Academy -->
+  <g fill="#3d2e06" opacity="0.85">
+    <rect x="117" y="72" width="6" height="52" rx="3"/>
+    <path d="M98,124 h44 a22,20 0 0 1 -44,0 z"/>
+  </g>
+  <text x="120" y="170" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="11" letter-spacing="3" fill="#3d2e06" opacity="0.85">MMXXVI</text>
+</svg>
