@@ -1,4 +1,4 @@
-/* The Slop Academy — Countdown to the Sealing of the Gates. */
+/* The Slop Academy — Countdown to the submission deadline. */
 (function () {
   "use strict";
 
@@ -34,12 +34,12 @@
   function pad(n) { return n < 10 ? "0" + n : String(n); }
 
   function seal() {
-    status.textContent = "The Gates of Submission Are Sealed";
+    status.textContent = "Submissions Are Closed";
     root.classList.add("is-sealed");
     if (clock) clock.hidden = true;
-    if (note) note.textContent = "The period of submission has concluded. The Committee has withdrawn into deliberation and is not to be disturbed.";
+    if (note) note.textContent = "Submissions are closed. Thanks to everyone who sent something in. See you at the awards!";
     if (cta) cta.hidden = true;
-    if (cfpStatus) cfpStatus.textContent = "Sealed";
+    if (cfpStatus) cfpStatus.textContent = "Closed";
   }
 
   if (!serverOpen || isNaN(deadline)) {
